@@ -7,22 +7,27 @@
     text-align: center;
     line-height: 50px;
     cursor: pointer;
-  }
+}
 
-  .option-box.selected {
+.option-box.selected {
     background-color: #ddd;
-  }
+}
 
-  .status-box {
+.status-box {
     width: 80px;
     height: 30px;
     margin: auto;
     border: 1px solid black;
     text-align: center;
     line-height: 30px;
-  }
+}
 
-  .option-box.disabled {
+.option-box.disabled {
     pointer-events: none;
     opacity: 0.6;
-  }
+}
+
+.not-selectable {
+    color: #ccc;
+    cursor: not-allowed;
+}
